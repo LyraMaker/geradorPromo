@@ -43,7 +43,18 @@
        
     </header>
     <main class="section">
-      
+        <div class="container">
+<?php $op = $_GET['id'];
+
+switch($op){
+    case "a": include 'form.php';
+    break;
+    case "b": echo 'Página exibir!';
+    break;
+}
+
+?>
+</div>
 
     </main>
     <footer class="footer has-background-link is-flex is-justify-content-center">
