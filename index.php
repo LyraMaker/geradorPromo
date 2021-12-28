@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <script defer src="https://friconix.com/cdn/friconix.js"> </script>
 </head>
 
@@ -49,11 +49,13 @@
 switch($op){
     case "a": include 'form.php';
     break;
-    case "b": echo 'Página exibir!';
+    case "b":
+    include('oferta.php');
     break;
 }
 
 ?>
+
 </div>
 
     </main>
