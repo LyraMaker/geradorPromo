@@ -35,7 +35,7 @@
             <input type="submit" class="button is-primary" value="Gerar oferta" >
                     </p>
         <p class="control">
-            <a class="button is-warning">
+            <a class="button is-warning" id="btnLimpar">
                 Limpar
             </a>
         </p>

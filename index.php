@@ -65,6 +65,7 @@ switch($op){
         </div>
     </footer>
     <script src="js/menu.js"></script>
+    <script src="js/funcoes.js"></script>
 </body>
 
 </html>
