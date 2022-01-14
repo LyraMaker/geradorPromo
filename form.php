@@ -2,7 +2,7 @@
     <h1 class="is-uppercase title">Formulario para gerar o banner</h1>
     <h2 class="subtitle has-text-danger">Complete o formulário com o que pede!</h2>
 </div>
-<form action="" method="post" class="block">
+<form action=" misc/gerar.php" method="post" class="block">
     <div class="field">
         <div class="control has-icons-left">
             <input type="text" class="input" name="nome" id="nome" placeholder="Nome do produto" required>
@@ -32,7 +32,7 @@
     </div>
     <div class="field is-grouped is-grouped-centered">
         <p class="control">
-            <input type="submit" class="button is-primary" value="Gerar oferta">
+            <input type="submit" class="button is-primary" value="Gerar oferta" >
                     </p>
         <p class="control">
             <a class="button is-warning">
