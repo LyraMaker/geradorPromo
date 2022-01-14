@@ -11,6 +11,4 @@ $pdo->exec('create table if not exists promocao(
     precoAntigo number not null,
     desconto number not null,
     observacao text);');
-
-
 ?>
