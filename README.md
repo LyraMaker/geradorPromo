@@ -8,4 +8,4 @@ Essa aplicação irá gerar, customizar e permitirá imprimir banners para anunc
 - HTML
 - CSS
 - JS
-- Tailwind
+- Bulma.io
